@@ -53,7 +53,7 @@ module.exports = {
 	DATABASE_URL,
 	DATABASE,
 	DISABLE_PM: toBool(process.env.DISABLE_PM || "false"),
-	HANDLERS: (process.env.HANDLERS || process.env.HANDLER || "false").trim(),
+	HANDLERS: (process.env.HANDLERS || process.env.HANDLER || "sarkar").trim(),
 	HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
 	HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
 	KOYEB_API_KEY: process.env.KOYEB_API_KEY || "",
