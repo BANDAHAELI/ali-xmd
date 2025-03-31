@@ -26,7 +26,7 @@ Sparky({
 	async ({
 		m
 	}) => {
-		return await m.reply(`_Runtime : ${await m.runtime()}_`);
+		return await m.reply(`_RUNTIME OF ALI-XMD IS : ${await m.runtime()}_`);
 	});
 
 
@@ -40,11 +40,11 @@ Sparky({
 		m
 	}) => {
 		const start = new Date().getTime();
-		let pong = await m.sendMsg(m.jid, "_Checking Ping..._", {
+		let pong = await m.sendMsg(m.jid, "_TESTING..._", {
 			quoted: m
 		});
 		const end = new Date().getTime();
-		return await m.sendMsg(m.jid, `_Latency : ${end - start} ms_`, {
+		return await m.sendMsg(m.jid, `_ALI-XMD SPEED IS : ${end - start} ms_`, {
 			edit: pong.key
 		});
 	});
