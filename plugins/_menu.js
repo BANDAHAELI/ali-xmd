@@ -37,7 +37,7 @@ Sparky({
             let [date,
                 time
             ] = new Date().toLocaleString("en-IN", {
-                timeZone: "Asia/Kolkata"
+                timeZone: "Asia/Karachi"
             }).split(",");
             let menu = `╭━━━〔${config.BOT_INFO.split(";")[0].toLowerCase()}〕━━>
 ┃╭━━━━━━━━━━━━━━◉
@@ -112,7 +112,7 @@ Sparky({
                         externalAdReply: {
                             title: style(`Hey ${m.pushName}!`),
                             body: style(`${config.BOT_INFO.split(";")[0]}`),
-                            sourceUrl: "https://ali-the-programmer.vercel.app",
+                            sourceUrl: "https://itx=>ali.vercel.app",
                             mediaType: 1,
                             showAdAttribution: true,
                             renderLargerThumbnail: true,
@@ -133,8 +133,8 @@ Sparky({
                         externalAdReply: {
                             title: style(`Hey ${m.pushName}!`),
                             body: style(`${config.BOT_INFO.split(";")[0]}`),
-                            sourceUrl: "https://sparky.devstackx.in",
-                            mediaUrl: "https://sparky.devstackx.in",
+                            sourceUrl: "https://itx=>ali.vercel.app",
+                            mediaUrl: "https://itx=>ali.vercel.app",
                             mediaType: 1,
                             showAdAttribution: true,
                             renderLargerThumbnail: false,
@@ -157,7 +157,7 @@ Sparky({
                         externalAdReply: {
                             title: style(`Hey ${m.pushName}!`),
                             body: style(`${config.BOT_INFO.split(";")[0]}`),
-                            sourceUrl: "https://sparky.devstackx.in",
+                            sourceUrl: "https://itx=>ali.vercel.app",
                             mediaType: 1,
                             showAdAttribution: true,
                             renderLargerThumbnail: true,
